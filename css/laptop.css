@@ -74,6 +74,10 @@ a.nav-link:link {
   border-left: 1px solid #ddd;
   padding: 20px;
 }
+a.nav-link:hover {
+  color: #0000ff;
+}
+
 /* Đặt ảnh đại diện */
 .anhdaidien {
   transform: scale(1.5);
