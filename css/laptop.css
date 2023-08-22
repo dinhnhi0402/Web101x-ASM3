@@ -1,0 +1,166 @@
+/* <!-- /*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+/*  --> */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #343a40;
+}
+h1 {
+  font-size: 35px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.icon,
+.icon-team {
+  color: #0abde3;
+}
+
+.section-title {
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+/* img */
+.avatar-banner {
+  position: relative;
+  filter: brightness(50%);
+  object-fit: cover;
+  height: 400px;
+  font-family: "Roboto";
+}
+.text-banner {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7f7f7;
+  text-align: center;
+  text-shadow: 0 1px 1px black;
+}
+.text-banner span {
+  font-weight: 100;
+  color: #b5b1b1;
+}
+/* Kết thúc img */
+
+/* Navbar */
+a.nav-link:visited,
+a.nav-link:link {
+  width: 100%;
+  color: black;
+  font-size: 15px;
+  margin: 5px;
+  font-weight: 300;
+  border-left: 1px solid #ddd;
+  padding: 20px;
+}
+/* Đặt ảnh đại diện */
+.anhdaidien {
+  transform: scale(1.5);
+  width: 7em;
+  height: 7em;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: -7px 20px;
+  margin: 0px 30px;
+}
+/* Kết thúc Navbar */
+
+/* INFO */
+h2.secttion-title2 {
+  color: #ddd;
+}
+job-box-grid {
+  display: grid;
+  border: 1px solid #adc3c7;
+}
+.noidungcongviec {
+  padding-left: 20px;
+}
+
+#job-info h2.title {
+  margin-left: 37px;
+  position: relative;
+}
+#job-info h2.title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #1f9fdc;
+  top: 14px;
+  left: -16px;
+  border-radius: 50%;
+}
+
+#certificate .right-border {
+  position: relative;
+}
+
+#certificate .right-border::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  right: -12px;
+  background-color: #e8dec9;
+}
+
+@media (min-width: 992px) {
+  .reset-mansonry-height {
+    height: auto !important;
+  }
+  .no-mansonry-col {
+    position: static !important;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-right: 24px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    width: calc((100% - 24px * 2) / 2) !important;
+  }
+  .boder-none {
+    border: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .no-mansonry-col {
+    width: calc((100% - 24px * 3) / 3) !important;
+  }
+}
+
+/* icon */
+
+.icon1 {
+  font-size: 55px;
+  color: gray;
+  align-items: start;
+}
+/* Kết thúc phần INFO */
+
+/* Digital-cv*/
+.digital-cv {
+  color: #0000ff;
+}
