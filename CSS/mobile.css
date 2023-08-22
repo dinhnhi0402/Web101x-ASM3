@@ -1,0 +1,15 @@
+@media only screen and (max-width: 767px) {
+  .anhdaidien {
+    display: none;
+  }
+  a.nav-link:visited,
+  a.nav-link:link {
+    border-left: none;
+    display: block;
+    padding: 0x auto 0px 0px;
+    text-align: left;
+  }
+  nav.justify-content-center {
+    justify-content: left !important;
+  }
+}
